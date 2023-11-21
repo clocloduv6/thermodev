@@ -6,3 +6,6 @@ Created on Tue Nov 21 12:33:08 2023
 """
 
 import thermo as th
+import numpy as np
+import matplotlib as plt
+
