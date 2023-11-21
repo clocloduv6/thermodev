@@ -31,7 +31,7 @@ for i in range(len(temp)):
   Cp_mel.append(Mix.Cp)
 
 plt.figure()
-plt.plot(temp,k_mel,'g-o')
+plt.plot(temp,k_mel,'g')
 plt.xlabel('Température (°C)')
 plt.grid(True)
 plt.ylabel("Conductivité thermique du mélange de propylène glycol et d'eau (W*K/m)")
@@ -39,7 +39,7 @@ plt.title('Conductivité thermique du mélange de refroidissement entre -10°C e
 plt.show()
 
 plt.figure()
-plt.plot(temp,mu_mel,'r-s')
+plt.plot(temp,mu_mel,'r')
 plt.xlabel('Température (°C)')
 plt.grid(True)
 plt.ylabel("Viscosité dynamique du mélange de propylène glycol et d'eau (Pa*s)")
@@ -47,7 +47,7 @@ plt.title('Viscosité dynamique du mélange de refroidissement entre -10°C et 5
 plt.show()
 
 plt.figure()
-plt.plot(temp,Cp_mel,'b-d')
+plt.plot(temp,Cp_mel,'b')
 plt.xlabel('Température (°C)')
 plt.grid(True)
 plt.ylabel("Capacité thermique à pression constante du mélange de propylène glycol et d'eau (J*K/kg)")
